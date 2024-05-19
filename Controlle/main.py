@@ -34,23 +34,23 @@ match_user = int(input("\nEscolha uma das operações que deseja realizar: "))
 
 match match_user:
     case 1:
-        from Controlle.transfers import Transfers
+        from transfers import Transfers
         transfers = Transfers()
     case 2:
-        from Controlle.payments import Payment
+        from payments import Payment
         payment = Payment()
     case 3:
-        from Controlle.cards import Cards
+        from cards import Cards
         cards = Cards()
     case 4:
-        from Controlle.pix import PIX
+        from pix import PIX
     case 5:
-        from Controlle.lendings import Lendings
+        from lendings import Lendings
     case 6:
-        from Controlle.financial_investiment import Investiment
+        from financial_investiment import Financial_Investiment
     case 7:
-        from Controlle.AI import AI
+        from AI import AI
     case 8:
-        from Controlle.your_team import YourTeam
+        from your_team import YourTeam
     case 9:
-        from Controlle.exit import Exit
+        from exite import Exit

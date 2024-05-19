@@ -1,5 +1,5 @@
 import sys
-class MyTeam():
+class YourTeam():
     print("Operação Indisponível no momento.")
     choice_user = int(input("\nDeseja retornar a tela incial? (0 - Retornar | 1 - Sair do Sistema) "))
     match choice_user:
